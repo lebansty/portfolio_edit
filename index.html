@@ -112,7 +112,7 @@ padding-top: 60px;
 
 }
 #about{
-    padding: 80px 0;
+    padding: 50px 0;
     color: #ababab;
 }
 .sec2 h1{
@@ -215,7 +215,7 @@ margin-bottom: 10px;
 }
 #card-des div a{
     text-decoration: none;
-    color: #fff;
+    color:aliceblue;
     font-size: 15px;
     font-weight:500;
     margin-top: 20px;
@@ -259,6 +259,18 @@ margin-bottom: 10px;
     padding: 10px;
     font-size: 30px;
 }
+.social a{
+  margin: 25px;
+    font-size: 40px;
+    padding: 0px;
+}
+.social a{
+  color: #ababab;
+}
+.social a:hover{
+  cursor: pointer;
+    color: #ff004f;
+}
 #social-cont a:hover{
     cursor: pointer;
     color: #ff004f;
@@ -285,10 +297,16 @@ border-radius: 10px;
 cursor: pointer;
 text-decoration: none;
 color: #fff;
+
 }
 .resume_btn a:hover{
   background-color: #ff004f;
 }
+.Project-links a{
+  margin-left: 15px;
+ 
+}
+
   </style>
 </head>
 
@@ -332,17 +350,35 @@ color: #fff;
           <h1>Hi, I'm<br /><span> Lebansty Valan </span></h1>
           <p>Full stack developer</p>
         </div>
+        
       </div>
       <div class="col-md-12 col-lg-6 col-sm-12">
         <img src="/images/img4.png" id="image3" class="img-fluid" alt="canva">
       </div>
     </div>
   </div>
+  <div class="container mb-5">
+    <div class="row justify-content-center">
+      <div class="col-md-4 align-self-center">
+      <span class="social">
+        <a title="git" rel="noopener" href="https://github.com/lebansty" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </span>
+      <span class="social">
+        <a title="linkedin" rel="noopener" href="https://www.linkedin.com/in/lebansty-valan-171a70175/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </span>
+      <span class="social">
+       
+          <a  title="resume" rel="noopener" target="_blank" href="https://drive.google.com/file/d/13QDrEAIXfspXLpwpxJv-XEKFZVVkhLGj/view?usp=sharing"><i class="fa-solid fa-file"></i></a>
+         
+      </span>
+      </div>
+    </div>
+      </div>
   <div id="about">
     <div class="container">
 
       <div class="row">
-        <div class="col-lg-6 justify-content-center row-cols-sm-1">
+        <div class="col-lg-5 justify-content-center row-cols-sm-1">
           <img src='images/portfolioimg2.jpg' class="img-fluid" id="image1" alt="girl" />
 
         </div>
@@ -359,7 +395,7 @@ color: #fff;
 
               <!-- <p class="tab-links active-link" id="experience2" onclick="openTab('experience','experience2')">Strength
               </p> -->
-              <p class="tab-links active-link" id="education2" onclick="openTab('education','education2')">Education</p>
+              <p class="tab-links active-link" id="education2">Education</p>
             </div>
 
             <!-- <div class="tab-contents d-flex justify-content-center active-tab" id="experience">
@@ -377,17 +413,18 @@ color: #fff;
                 <li><span>HSC</span><br />State board with 80%</li>
                 <li><span>BE(Automobile Engineering)</span><br />Anna university with 63%</li>
               </ul>
-
+             
             </div>
-
+        
           </div>
-
+         
         </div>
 
       </div>
 
     </div>
   </div>
+
   <div class="container" id="skills">
 
     <h1>Skills</h1>
@@ -515,22 +552,31 @@ color: #fff;
           <div class="card mt-sm-3" id="card-des">
             <i class="fa-brands fa-react"></i>
             <div class="card-body">
-              <h5 class="card-title">Shopping cart</h5>
+              <h5 class="card-title">Ecommerce</h5>
               <h6 class="card-subtitle mb-2 text-muted">Details</h6>
-              <p class="card-text">Made a shopping application using react in which the products can be added in the cart and removed.</p>
-              <a href="https://mellow-gumdrop-675860.netlify.app/" class="card-link">View</a>
+              <p class="card-text">Made a shopping application using react in which the users can purchase the products and admin can read update and delete their products</p>
+              
+<div class="Project-links">
+  <a href="https://peaceful-begonia-8be3c5.netlify.app" rel="noopener" target="_blank" class="card-link">View</a>
+  <a href="https://github.com/lebansty/shoppy_frontend" rel="noopener" target="_blank">Front-end code</a>
+  <a href="https://github.com/lebansty/fullstcack_project_4_shoppy_backend" rel="noopener" target="_blank">Back-end code</a>
+</div>
 
             </div>
           </div>
         </div>
         <div class="col-md-4 mt-sm-3 col-sm-12">
           <div class="card mt-sm-3" id="card-des">
-            <i class="fa-solid fa-database"></i>
+            <i class="fa-brands fa-react"></i>
             <div class="card-body">
-              <h5 class="card-title">Country&weather</h5>
+              <h5 class="card-title">Chat application</h5>
               <h6 class="card-subtitle mb-2 text-muted">Details</h6>
-              <p class="card-text">Rest country API is used in this project to display the country details and weather API is used to show the weather of the country</p>
-              <a href="https://fantastic-kulfi-2d0f55.netlify.app/" class="card-link">View</a>
+              <p class="card-text">Using socket.io i have created this application. Give your name and create a room id to start chatting</p>
+              <div class="Project-links">
+                <a href="https://jazzy-piroshki-a5258a.netlify.app" rel="noopener" target="_blank">View</a>
+                <a href="https://github.com/lebansty/Chat_app_frontend" rel="noopener" target="_blank">Front-end code</a>
+                <a href="https://github.com/lebansty/chatapp_backend" rel="noopener" target="_blank">Back-end code</a>
+              </div>
 
             </div>
           </div>
@@ -538,13 +584,17 @@ color: #fff;
         </div>
         <div class="col-md-4 mt-sm-3 col-sm-12">
           <div class="card mt-sm-3" id="card-des">
-            <i class="fa-solid fa-database"></i>
+            <i class="fa-brands fa-react"></i>
             <div class="card-body">
               <h5 class="card-title">Stack overflow clone</h5>
               <h6 class="card-subtitle mb-2 text-muted">Details</h6>
               <p class="card-text">Build this webapp which includes most of the stack overflow features.</p>
-              <a href="https://stellar-fox-397d3a.netlify.app" class="card-link">View</a>
-
+              
+<div class="Project-links">
+  <a href="https://stellar-fox-397d3a.netlify.app" target="_blank" rel="noopener" class="card-link">View</a>
+  <a href="https://github.com/lebansty/Webcode_2_frontend" rel="noopener" target="_blank">Front-end code</a>
+  <a href="https://github.com/lebansty/webcode2_backend" rel="noopener" target="_blank">Back-end code</a>
+</div>
             </div>
           </div>
 
@@ -561,20 +611,48 @@ color: #fff;
               <h5 class="card-title">Student event management</h5>
               <h6 class="card-subtitle mb-2 text-muted">Details</h6>
               <p class="card-text">This is an admin dashboard for student event management in institutions.</p>
-              <a href="https://thunderous-cajeta-081572.netlify.app" class="card-link">View</a>
-
+              
+<div class="Project-links">
+  <a href="https://thunderous-cajeta-081572.netlify.app" rel="noopener" target="_blank" class="card-link">View</a>
+  <a href="https://github.com/lebansty/zen_class_event_management_for_students_frontend" rel="noopener" target="_blank">Front-end code</a>
+  <a href="https://github.com/lebansty/zenclass_event_management_for-_students_backend" rel="noopener" target="_blank">Back-end code</a>
+</div>
             </div>
           </div>
 
         </div>
         <div class="col-md-4 col-sm-12 mt-sm-3">
           <div class="card mt-sm-3" id="card-des">
-            <i class="fa-solid fa-database"></i>
+           
             <div class="card-body">
-              <h5 class="card-title">Ice & Fire</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Details</h6>
-              <p class="card-text">This webpage shows books written by George R. R. Martin.</p>
-              <a href="https://dulcet-cobbler-ec31fe.netlify.app/" class="card-link">View</a>
+              <h5 class="card-title">Credentials</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Ecommerce & Student management</h6>
+              <div class="row">
+                <div class="col-md-6">
+                  <div>Admin
+                    <span>Mail:demo@gmail.com</span>,
+                    <span>Password:hello123</span>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div>User
+                    <span>Mail:user@gmail.com</span>,
+                    <span>Password:hello123</span>
+                  </div>
+                </div>
+                
+              </div>
+              <h6 class="card-subtitle mt-3 text-muted">Stack overflow clone</h6>
+              <div class="row">
+                
+                <div class="col-md-6 mt-2">
+                  <div>User
+                    <span>Mail:demo@gmail.com</span>,
+                    <span>Password:hello321</span>
+                  </div>
+                </div>
+                
+              </div>
 
             </div>
           </div>
@@ -599,7 +677,7 @@ color: #fff;
             <a title="linkedin" rel="noopener" href="https://www.linkedin.com/in/lebansty-valan-171a70175/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
           </div>
 <div class="resume_btn mt-5">
-<a download href="./files/Lebansty's Resume.pdf">Download Resume</a>
+<a download href="./files/Lebansty's Resume updated.pdf">Download Resume</a>
 </div>
         </div>
         <div class="col-6 offset-2" id="form">
